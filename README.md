@@ -22,7 +22,43 @@
 
 ```js
 console.log('234sddsdfs')
+returns(){
+    return(marked(this.state.data))
+}
+componentDidMount() {
+    let xss=this.props.params.title
+        gitmd(xss)
+        .then((we)=>
+               this.setState({
+                  data:we.as
+              })
+         )
+         .catch(()=>{
+             alert('404')
+         })
+
+}
+render () {
+    marked.setOptions({
+        highlight:function(code){
+            return hljs.highlightAuto(code).value;
+        }
+    });
+    return(
+        <div style={{textAlign:'center'}}>
+            <div dangerouslySetInnerHTML={{__html: this.returns()}} />
+        </div>
+    )
+}
 ```
 ```html
 jsdhsdfsfjksd<sfs>sdfsdf</sfs>
 ```
+
+table tab 键  出表格
+| Headwerer One     | Headerweer Two     |
+
+| Item Oneewr       | Item Twerewo       |
+| :------------- | :------------- |
+| :------------- | :------------- |
+| :------------- | :------------- |
