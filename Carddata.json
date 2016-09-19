@@ -1,5 +1,5 @@
-Carddata=[
-    {"imgsrc":"https://img.alicdn.com/imgextra/i4/411329340/TB2hozsopXXXXbjXXXXXXXXXXXX_!!411329340.jpg","Hthree":"Thumbnail label","Ptitle":"...","srcurl":"1"},
-    {"imgsrc":"https://img.alicdn.com/imgextra/i4/894224787/TB2d4GGcVXXXXbBXpXXXXXXXXXX_!!894224787.jpg","Hthree":"Thumbnail label","Ptitle":"...","srcurl":"2"},
-    {"imgsrc":"https://img.alicdn.com/imgextra/i4/1123956656/TB2a_vFXWm5V1BjSspbXXX6sXXa_!!1123956656.jpg","Hthree":"Thumbnail label","Ptitle":"...","srcurl":"3"},
+[
+    {"imgsrc":"https://img.alicdn.com/imgextra/i4/411329340/TB2hozsopXXXXbjXXXXXXXXXXXX_!!411329340.jpg","Hthree":"Thumbnail label","Ptitle":"...","srcurl":"A"},
+    {"imgsrc":"https://img.alicdn.com/imgextra/i4/894224787/TB2d4GGcVXXXXbBXpXXXXXXXXXX_!!894224787.jpg","Hthree":"Thumbnail label","Ptitle":"...","srcurl":"B"},
+    {"imgsrc":"https://img.alicdn.com/imgextra/i4/1123956656/TB2a_vFXWm5V1BjSspbXXX6sXXa_!!1123956656.jpg","Hthree":"Thumbnail label","Ptitle":"...","srcurl":"C"}
 ]
